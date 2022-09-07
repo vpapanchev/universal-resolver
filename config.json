@@ -17,6 +17,14 @@
 			]
 		},
 		{
+			"pattern": "^(did:web:.+)$",
+			"url": "http://uni-resolver-driver-did-uport:8081/",
+			"testIdentifiers": [
+				"did:web:papanchev.solidweb.org:dids:alice"
+			]
+		},
+
+		{
 			"pattern": "^(did:indy:.+)$",
 			"url": "http://indy-did-driver:8080/1.0/identifiers/$1",
 			"testIdentifiers": [ "did:indy:local:4aMj54s6znj4fZmqGQxfyc"]
